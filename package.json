@@ -1,0 +1,26 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "connect-multiparty": "^2.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jwt-simple": "^0.5.1",
+    "moment": "^2.22.2",
+    "mongoose": "^5.1.4",
+    "mongoose-pagination": "^1.0.0",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
